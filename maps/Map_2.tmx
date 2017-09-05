@@ -620,7 +620,7 @@
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 </data>
  </layer>
- <objectgroup name="Obtacles">
+ <objectgroup name="Obstacles">
   <object id="1" x="0" y="770" width="39" height="18"/>
   <object id="2" x="0" y="788" width="31" height="172"/>
   <object id="3" x="31" y="864" width="33" height="96"/>
@@ -720,7 +720,7 @@
  <objectgroup name="To Next Map">
   <object id="135" x="639" y="14" width="1" height="116"/>
  </objectgroup>
- <objectgroup name="Bridge Obsacles">
+ <objectgroup name="Bridge Obstacles">
   <object id="65" x="256" y="542" width="128" height="1"/>
   <object id="82" x="31" y="247" width="225" height="1"/>
   <object id="83" x="256" y="279" width="128" height="1"/>
