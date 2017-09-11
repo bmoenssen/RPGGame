@@ -114,7 +114,7 @@
 281,282,281,282,281,282,0,0,0,0,0,0,0,0,281,282,281,282,281,282
 </data>
  </layer>
- <objectgroup name="Obstacles">
+ <objectgroup name="MAP_COLLISION_LAYER">
   <object id="1" x="0" y="256" width="96" height="64"/>
   <object id="2" x="96" y="256" width="16" height="7"/>
   <object id="3" x="0" y="224" width="112" height="32"/>
@@ -135,10 +135,10 @@
   <object id="19" x="66" y="155" width="7" height="3"/>
   <object id="21" x="66" y="0" width="188" height="84"/>
  </objectgroup>
- <objectgroup name="To Previous Map">
-  <object id="22" x="96" y="319" width="128" height="1"/>
+ <objectgroup name="MAP_PORTAL_LAYER">
+  <object id="22" name="MAP3" x="96" y="319" width="128" height="1"/>
  </objectgroup>
  <objectgroup name="Interaction">
-  <object id="23" x="145" y="84" width="30" height="9"/>
+  <object id="23" name="GTDOOR" x="145" y="84" width="30" height="9"/>
  </objectgroup>
 </map>

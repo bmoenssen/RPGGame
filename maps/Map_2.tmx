@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.0" tiledversion="2017.07.25" orientation="orthogonal" renderorder="right-down" width="40" height="60" tilewidth="16" tileheight="16" nextobjectid="246">
+<map version="1.0" tiledversion="2017.07.25" orientation="orthogonal" renderorder="right-down" width="40" height="60" tilewidth="16" tileheight="16" nextobjectid="247">
  <tileset firstgid="1" name="Stone_Brick_to_Grass" tilewidth="16" tileheight="16" tilecount="36" columns="6">
   <image source="Game/Tiles/Outside/Stone_Brick/Stone_Brick_to_Grass/Stone_Brick_to_Grass.png" width="96" height="96"/>
  </tileset>
@@ -620,7 +620,7 @@
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 </data>
  </layer>
- <objectgroup name="Obstacles">
+ <objectgroup name="MAP_COLLISION_LAYER">
   <object id="1" x="0" y="770" width="39" height="18"/>
   <object id="2" x="0" y="788" width="31" height="172"/>
   <object id="3" x="31" y="864" width="33" height="96"/>
@@ -720,11 +720,9 @@
   <object id="244" x="48" y="288" width="16" height="23"/>
   <object id="245" x="64" y="320" width="16" height="7"/>
  </objectgroup>
- <objectgroup name="To Previous Map">
-  <object id="136" x="0" y="684" width="1" height="86"/>
- </objectgroup>
- <objectgroup name="To Next Map">
-  <object id="135" x="639" y="14" width="1" height="116"/>
+ <objectgroup name="MAP_PORTAL_LAYER">
+  <object id="135" name="SHNARF" x="639" y="14" width="1" height="116"/>
+  <object id="246" name="MAP1" x="0" y="684" width="1" height="86"/>
  </objectgroup>
  <objectgroup name="Bridge Obstacle">
   <object id="65" x="256" y="542" width="128" height="1"/>
@@ -742,7 +740,7 @@
   <object id="187" x="352" y="279" width="32" height="40"/>
  </objectgroup>
  <objectgroup name="Interaction">
-  <object id="99" x="490" y="407" width="12" height="9"/>
+  <object id="99" name="M2SWITCH" x="490" y="407" width="12" height="9"/>
  </objectgroup>
  <objectgroup name="Waterfall Obstacle">
   <object id="179" x="288" y="782" width="64" height="66"/>
