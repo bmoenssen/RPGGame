@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.0" tiledversion="2017.07.25" orientation="orthogonal" renderorder="right-down" width="40" height="60" tilewidth="16" tileheight="16" nextobjectid="478">
+<map version="1.0" tiledversion="2017.07.25" orientation="orthogonal" renderorder="right-down" width="40" height="60" tilewidth="16" tileheight="16" nextobjectid="480">
  <tileset firstgid="1" name="Stone_Brick_to_Grass" tilewidth="16" tileheight="16" tilecount="36" columns="6">
   <image source="Game/Tiles/Outside/Stone_Brick/Stone_Brick_to_Grass/Stone_Brick_to_Grass.png" width="96" height="96"/>
  </tileset>
@@ -643,11 +643,11 @@
  </objectgroup>
  <objectgroup name="SPAWNS_LAYER">
   <object id="469" name="FROM_MAP2" x="618" y="48" width="16" height="16"/>
+  <object id="478" name="FROM_MAP4" x="159" y="938" width="32" height="16"/>
  </objectgroup>
  <objectgroup name="PORTAL_LAYER">
   <object id="167" name="MAP2" x="639" y="7" width="1" height="91"/>
   <object id="464" name="MAP4" x="135" y="959" width="82" height="1"/>
-  <object id="476" name="FROM_MAP4" x="159" y="938" width="32" height="16"/>
  </objectgroup>
  <objectgroup name="BRIDGE_OBSTACLE">
   <object id="55" x="256" y="552" width="128" height="1"/>
