@@ -642,8 +642,8 @@
   <object id="473" x="160" y="0" width="32" height="156"/>
  </objectgroup>
  <objectgroup name="SPAWNS_LAYER">
-  <object id="469" name="FROM_MAP2" x="618" y="48" width="16" height="16"/>
-  <object id="478" name="FROM_MAP4" x="159" y="938" width="32" height="16"/>
+  <object id="469" name="PLAYER_START" x="618" y="48" width="16" height="16"/>
+  <object id="478" name="PLAYER_START" x="159" y="938" width="32" height="16"/>
  </objectgroup>
  <objectgroup name="PORTAL_LAYER">
   <object id="167" name="MAP2" x="639" y="7" width="1" height="91"/>

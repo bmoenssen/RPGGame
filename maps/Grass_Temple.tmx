@@ -136,7 +136,7 @@
   <object id="21" x="66" y="0" width="188" height="84"/>
  </objectgroup>
  <objectgroup name="SPAWNS_LAYER">
-  <object id="26" name="FROM_MAP3" x="144" y="299" width="32" height="16"/>
+  <object id="26" name="PLAYER_START" x="144" y="299" width="32" height="16"/>
  </objectgroup>
  <objectgroup name="PORTAL_LAYER">
   <object id="22" name="MAP3" x="96" y="319" width="128" height="1"/>
