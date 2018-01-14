@@ -114,7 +114,7 @@
 281,282,281,282,281,282,0,0,0,0,0,0,0,0,281,282,281,282,281,282
 </data>
  </layer>
- <layer name="Z1" width="20" height="20">
+ <layer name="ZDOWN" width="20" height="20">
   <data encoding="csv">
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
@@ -166,7 +166,7 @@
   <object id="22" name="MAP3" x="96" y="319" width="128" height="1"/>
  </objectgroup>
  <objectgroup name="Z_GATES">
-  <object id="30" name="Z1" x="144" y="299" width="32" height="16"/>
+  <object id="30" name="ZDOWN" x="144" y="299" width="32" height="16"/>
  </objectgroup>
  <objectgroup name="INTERACTION">
   <object id="23" name="GTDOOR" x="145" y="84" width="30" height="9"/>
