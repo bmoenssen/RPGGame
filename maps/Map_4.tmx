@@ -777,7 +777,7 @@
   <object id="228" name="PLAYER_START" x="128" y="618" width="32" height="16"/>
  </objectgroup>
  <objectgroup name="PORTAL_LAYER">
-  <object id="215" name="MAP1" x="959" y="263" width="1" height="107"/>
+  <object id="215" name="Compass" x="959" y="263" width="1" height="107"/>
   <object id="221" name="MAP5" x="32" y="0" width="48" height="1"/>
   <object id="226" name="Map14" x="112" y="639" width="64" height="1"/>
  </objectgroup>
