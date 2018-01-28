@@ -90,7 +90,7 @@
 0,0,0,0,0,0,0,0
 </data>
  </layer>
- <layer name="ZDOWN" width="8" height="11">
+ <layer name="ZDOWN" width="8" height="11" visible="0" locked="1">
   <data encoding="csv">
 0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,

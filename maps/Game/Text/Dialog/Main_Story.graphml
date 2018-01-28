@@ -931,7 +931,7 @@ strange recently.<y:LabelModel>
                   <y:Fill color="#FF99CC" transparent="false"/>
                   <y:BorderStyle color="#000000" raised="false" type="line" width="1.0"/>
                   <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="33.40234375" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="253.43359375" x="5.881078325000544" y="-1.701171875">There is, but I’ll only tell you if you promise me 
-one thing - you’ll visit Chibi Town again.<y:LabelModel>
+one thing - you’ll visit Elmour again.<y:LabelModel>
                       <y:SmartNodeLabelModel distance="4.0"/>
                     </y:LabelModel>
                     <y:ModelParameter>
@@ -1066,7 +1066,7 @@ otherwise later.<y:LabelModel>
                   <y:Geometry height="30.0" width="186.6811253911519" x="4267.460850780923" y="253.0653329809121"/>
                   <y:Fill color="#FFCC00" transparent="false"/>
                   <y:BorderStyle color="#000000" raised="false" type="line" width="1.0"/>
-                  <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.701171875" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="173.40625" x="6.6374376955755" y="5.6494140625">By the way, what’s Chibi Town?<y:LabelModel>
+                  <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.701171875" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="151.392578125" x="17.6442736330755" y="5.6494140625">By the way, what’s Elmour?<y:LabelModel>
                       <y:SmartNodeLabelModel distance="4.0"/>
                     </y:LabelModel>
                     <y:ModelParameter>
@@ -1101,7 +1101,7 @@ in right now.<y:LabelModel>
               <data key="d5"><![CDATA[Me]]></data>
               <data key="d6">
                 <y:ShapeNode>
-                  <y:Geometry height="30.0" width="96.78608588101633" x="4779.337726572074" y="223.0653329809121"/>
+                  <y:Geometry height="30.0" width="96.78608588101633" x="4779.337726572074" y="283.0653329809121"/>
                   <y:Fill color="#FFFF00" transparent="false"/>
                   <y:BorderStyle color="#000000" raised="false" type="line" width="1.0"/>
                   <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.701171875" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="85.375" x="5.705542940508167" y="5.6494140625">Is this a portal?<y:LabelModel>
@@ -1120,7 +1120,7 @@ in right now.<y:LabelModel>
               <data key="d5"><![CDATA[Me]]></data>
               <data key="d6">
                 <y:ShapeNode>
-                  <y:Geometry height="30.0" width="265.19575039999927" x="4779.337726572076" y="283.0653329809121"/>
+                  <y:Geometry height="30.0" width="265.19575039999927" x="4779.337726572076" y="223.0653329809121"/>
                   <y:Fill color="#FFFF00" transparent="false"/>
                   <y:BorderStyle color="#000000" raised="false" type="line" width="1.0"/>
                   <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="33.40234375" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="225.455078125" x="19.87033613749918" y="-1.701171875">You mean I could’ve just left as soon as I 
@@ -1140,7 +1140,7 @@ came?<y:LabelModel>
               <data key="d5"><![CDATA[Me]]></data>
               <data key="d6">
                 <y:ShapeNode>
-                  <y:Geometry height="30.0" width="265.19575039999927" x="4906.12381245309" y="223.0653329809121"/>
+                  <y:Geometry height="30.0" width="265.19575039999927" x="4906.12381245309" y="283.0653329809121"/>
                   <y:Fill color="#FFCC00" transparent="false"/>
                   <y:BorderStyle color="#000000" raised="false" type="line" width="1.0"/>
                   <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.701171875" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="228.759765625" x="18.21799238749918" y="5.6494140625">Hold on, it looks like something is missing.<y:LabelModel>
@@ -5254,7 +5254,7 @@ didn't have, I have packed.<y:LabelModel>
     <edge id="n0::n1::e34" source="n0::n1::n30" target="n0::n1::n32">
       <data key="d10">
         <y:BezierEdge>
-          <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
+          <y:Path sx="0.0" sy="0.0" tx="-105.49545907025367" ty="0.0"/>
           <y:LineStyle color="#000000" type="line" width="1.0"/>
           <y:Arrows source="none" target="standard"/>
         </y:BezierEdge>
@@ -5273,7 +5273,10 @@ didn't have, I have packed.<y:LabelModel>
     <edge id="n0::n1::e36" source="n0::n1::n32" target="n0::n1::n33">
       <data key="d10">
         <y:PolyLineEdge>
-          <y:Path sx="0.0" sy="0.0" tx="0.0" ty="-14.999999999999972"/>
+          <y:Path sx="0.0" sy="0.0" tx="0.0" ty="-14.999999999999972">
+            <y:Point x="5186.319562853089" y="298.0653329809121"/>
+            <y:Point x="5186.319562853089" y="238.0653329809121"/>
+          </y:Path>
           <y:LineStyle color="#000000" type="line" width="1.0"/>
           <y:Arrows source="none" target="standard"/>
           <y:BendStyle smoothed="false"/>
