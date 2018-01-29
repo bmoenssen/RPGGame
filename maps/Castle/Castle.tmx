@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.0" tiledversion="2017.07.25" orientation="orthogonal" renderorder="right-down" width="32" height="22" tilewidth="16" tileheight="16" nextobjectid="22">
+<map version="1.0" tiledversion="2017.07.25" orientation="orthogonal" renderorder="right-down" width="32" height="22" tilewidth="16" tileheight="16" nextobjectid="24">
  <tileset firstgid="1" name="Stone_Brick_to_Grass" tilewidth="16" tileheight="16" tilecount="36" columns="6">
   <image source="../Game/Tiles/Outside/Stone_Brick/Stone_Brick_to_Grass/Stone_Brick_to_Grass.png" width="96" height="96"/>
  </tileset>
@@ -169,12 +169,14 @@
  </objectgroup>
  <objectgroup name="SPAWNS_LAYER">
   <object id="15" name="PLAYER_START" x="6" y="151" width="16" height="41"/>
+  <object id="22" name="PLAYER_START" x="230" y="224" width="16" height="32"/>
  </objectgroup>
  <objectgroup name="PORTAL_LAYER">
   <object id="16" name="Portal_Room" x="0" y="151" width="1" height="41"/>
  </objectgroup>
  <objectgroup name="Z_GATES">
   <object id="17" name="ZDOWN" x="6" y="151" width="16" height="41"/>
+  <object id="23" name="ZDOWN" x="230" y="224" width="16" height="32"/>
  </objectgroup>
  <objectgroup name="INTERACTION">
   <object id="18" name="Throne_Room" x="224" y="55" width="48" height="9"/>
