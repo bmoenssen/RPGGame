@@ -1,7 +1,6 @@
 Main Maps:
 
 Grass Temple
-Map_6
 Desert Temple
 Map_7
 Map_8
