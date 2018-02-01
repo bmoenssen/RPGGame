@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.0" tiledversion="2017.07.25" orientation="orthogonal" renderorder="right-down" width="120" height="40" tilewidth="16" tileheight="16" nextobjectid="281">
+<map version="1.0" tiledversion="2017.07.25" orientation="orthogonal" renderorder="right-down" width="120" height="40" tilewidth="16" tileheight="16" nextobjectid="299">
  <tileset firstgid="1" name="Stone_Brick_to_Grass" tilewidth="16" tileheight="16" tilecount="36" columns="6">
   <image source="Game/Tiles/Outside/Stone_Brick/Stone_Brick_to_Grass/Stone_Brick_to_Grass.png" width="96" height="96"/>
  </tileset>
@@ -693,6 +693,17 @@
   <object id="278" x="1034" y="199" width="12" height="15"/>
   <object id="279" x="1002" y="359" width="12" height="15"/>
   <object id="280" x="874" y="359" width="12" height="15"/>
+  <object id="281" x="432" y="417" width="8" height="7"/>
+  <object id="282" x="392" y="377" width="8" height="47"/>
+  <object id="283" x="416" y="401" width="8" height="23"/>
+  <object id="284" x="408" y="393" width="8" height="31"/>
+  <object id="286" x="336" y="87" width="16" height="288"/>
+  <object id="287" x="352" y="87" width="16" height="304"/>
+  <object id="288" x="400" y="384" width="8" height="39"/>
+  <object id="289" x="368" y="87" width="16" height="321"/>
+  <object id="291" x="424" y="409" width="8" height="15"/>
+  <object id="292" x="320" y="87" width="16" height="272"/>
+  <object id="293" x="384" y="369" width="8" height="55"/>
  </objectgroup>
  <objectgroup name="SPAWNS_LAYER">
   <object id="265" name="PLAYER_START" x="1792" y="618" width="16" height="16"/>
@@ -709,25 +720,14 @@
   <object id="103" x="800" y="526" width="368" height="1"/>
   <object id="113" x="512" y="551" width="656" height="1"/>
   <object id="204" x="512" y="590" width="656" height="1"/>
+  <object id="296" x="440" y="423" width="72" height="1"/>
+  <object id="298" x="512" y="423" width="1" height="10"/>
  </objectgroup>
  <objectgroup name="UNDERBRIDGE_OBSTACLE">
   <object id="205" x="800" y="488" width="64" height="38"/>
   <object id="206" x="1024" y="488" width="48" height="38"/>
   <object id="207" x="1024" y="552" width="48" height="38"/>
   <object id="208" x="672" y="552" width="192" height="40"/>
-  <object id="209" x="448" y="432" width="64" height="1"/>
-  <object id="211" x="440" y="425" width="8" height="8"/>
-  <object id="212" x="432" y="417" width="8" height="8"/>
-  <object id="214" x="424" y="409" width="8" height="15"/>
-  <object id="215" x="416" y="401" width="8" height="23"/>
-  <object id="216" x="408" y="393" width="8" height="31"/>
-  <object id="217" x="400" y="385" width="8" height="39"/>
-  <object id="218" x="392" y="377" width="8" height="47"/>
-  <object id="219" x="384" y="369" width="8" height="55"/>
-  <object id="221" x="368" y="87" width="16" height="321"/>
-  <object id="222" x="352" y="87" width="16" height="304"/>
-  <object id="224" x="336" y="87" width="16" height="288"/>
-  <object id="227" x="320" y="87" width="16" height="272"/>
   <object id="228" x="666" y="256" width="12" height="16"/>
   <object id="229" x="698" y="224" width="12" height="6"/>
   <object id="230" x="666" y="192" width="12" height="6"/>
@@ -737,6 +737,8 @@
   <object id="241" x="746" y="6" width="12" height="16"/>
   <object id="250" x="1360" y="233" width="16" height="37"/>
   <object id="252" x="1280" y="233" width="16" height="37"/>
+  <object id="294" x="440" y="424" width="8" height="9"/>
+  <object id="295" x="448" y="432" width="64" height="1"/>
  </objectgroup>
  <objectgroup name="Z_GATES">
   <object id="267" name="ZDOWN" x="1792" y="618" width="16" height="16"/>
