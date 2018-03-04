@@ -1,0 +1,1 @@
+xcopy /E /Y "C:\Users\bmoen\Documents\Bensrpg\maps" "C:\Users\bmoen\Documents\elmour\android\assets\RPGGame\maps"

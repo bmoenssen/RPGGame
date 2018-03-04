@@ -1,0 +1,1 @@
+del /F /S "C:\Users\bmoen\Documents\elmour\android\assets\RPGGame\maps\*.*"

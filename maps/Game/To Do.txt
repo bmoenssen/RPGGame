@@ -2,7 +2,6 @@ Main Maps:
 
 Grass Temple
 Desert Temple
-Map_8
 Tarping Town
 Map_9
 Snow Temple
@@ -50,3 +49,5 @@ T3DOOR1
 T3DOOR2
 M7DOOR1
 M7DOOR2
+M8DOOR1
+M8DOOR2
