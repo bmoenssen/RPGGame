@@ -1180,10 +1180,10 @@
   <object id="463" name="ZSHADOWUP" x="1264" y="252" width="128" height="1"/>
   <object id="464" name="ZSHADOWDOWN" x="1264" y="250" width="128" height="1"/>
   <object id="465" name="ZDOWN" x="1264" y="248" width="128" height="1"/>
-  <object id="466" name="ZSHADOWUP" x="1264" y="124" width="80" height="1"/>
-  <object id="467" name="ZSHADOWDOWN" x="1264" y="123" width="80" height="1"/>
-  <object id="468" name="ZDOWN" x="1264" y="123" width="80" height="1"/>
-  <object id="469" name="ZUP" x="1264" y="124" width="80" height="1"/>
+  <object id="466" name="ZSHADOWUP" x="1264" y="123" width="80" height="1"/>
+  <object id="467" name="ZSHADOWDOWN" x="1264" y="124" width="80" height="1"/>
+  <object id="468" name="ZDOWN" x="1264" y="124" width="80" height="1"/>
+  <object id="469" name="ZUP" x="1264" y="123" width="80" height="1"/>
  </objectgroup>
  <objectgroup name="INTERACTION">
   <object id="442" name="M14SIGN1" x="1551" y="27" width="18" height="8"/>
