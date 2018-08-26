@@ -3553,8 +3553,8 @@
   <object id="365" x="256" y="2011" width="96" height="1"/>
   <object id="419" x="400" y="2400" width="64" height="16"/>
   <object id="420" x="404" y="2466" width="56" height="1"/>
-  <object id="580" x="16" y="287" width="32" height="13"/>
-  <object id="581" x="96" y="335" width="32" height="13"/>
+  <object id="580" x="16" y="287" width="32" height="21"/>
+  <object id="581" x="96" y="335" width="32" height="21"/>
   <object id="597" x="128" y="288" width="16" height="64"/>
   <object id="598" x="0" y="288" width="16" height="64"/>
  </objectgroup>
