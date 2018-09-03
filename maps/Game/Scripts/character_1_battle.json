@@ -34,17 +34,6 @@ animationConfig: [
 			}
 		]
 	}
-]
-}
-{
-entityID : CHARACTER_1
-state : IDLE
-direction : DOWN
-conversationConfigPath : ""
-questConfigPath : ""
-currentQuestID : ""
-itemTypeID: NONE
-animationConfig: [
 	{
 	    frameDuration: 0.125
 			frameWidth : 48
@@ -72,17 +61,6 @@ animationConfig: [
 			}
 		]
 	}
-]
-}
-{
-entityID : CHARACTER_1
-state : IDLE
-direction : DOWN
-conversationConfigPath : ""
-questConfigPath : ""
-currentQuestID : ""
-itemTypeID: NONE
-animationConfig: [
 	{
 	    frameDuration: 0.125
 			frameWidth : 48
@@ -110,17 +88,6 @@ animationConfig: [
 			}
 		]
 	}
-]
-}
-{
-entityID : CHARACTER_1
-state : IDLE
-direction : DOWN
-conversationConfigPath : ""
-questConfigPath : ""
-currentQuestID : ""
-itemTypeID: NONE
-animationConfig: [
 	{
 	    frameDuration: 0.125
 			frameWidth : 48
@@ -148,17 +115,6 @@ animationConfig: [
 			}
 		]
 	}
-]
-}
-{
-entityID : CHARACTER_1
-state : IDLE
-direction : DOWN
-conversationConfigPath : ""
-questConfigPath : ""
-currentQuestID : ""
-itemTypeID: NONE
-animationConfig: [
 	{
 	    frameDuration: 0.125
 			frameWidth : 48
@@ -186,17 +142,6 @@ animationConfig: [
 			}
 		]
 	}
-]
-}
-{
-entityID : CHARACTER_1
-state : IDLE
-direction : DOWN
-conversationConfigPath : ""
-questConfigPath : ""
-currentQuestID : ""
-itemTypeID: NONE
-animationConfig: [
 	{
 	    frameDuration: 0.125
 			frameWidth : 48
@@ -224,19 +169,8 @@ animationConfig: [
 			}
 		]
 	}
-]
-}
-{
-entityID : CHARACTER_1
-state : IDLE
-direction : DOWN
-conversationConfigPath : ""
-questConfigPath : ""
-currentQuestID : ""
-itemTypeID: NONE
-animationConfig: [
 	{
-	    frameDuration: 0.125
+	    frameDuration: 0.0667
 			frameWidth : 80
 			frameHeight : 16
 		animationType: DAGGER_LEFT
@@ -270,19 +204,8 @@ animationConfig: [
 			}
 		]
 	}
-]
-}
-{
-entityID : CHARACTER_1
-state : IDLE
-direction : DOWN
-conversationConfigPath : ""
-questConfigPath : ""
-currentQuestID : ""
-itemTypeID: NONE
-animationConfig: [
 	{
-	    frameDuration: 0.125
+	    frameDuration: 0.0667
 			frameWidth : 80
 			frameHeight : 16
 		animationType: DAGGER_RIGHT
@@ -316,21 +239,10 @@ animationConfig: [
 			}
 		]
 	}
-]
-}
-{
-entityID : CHARACTER_1
-state : IDLE
-direction : DOWN
-conversationConfigPath : ""
-questConfigPath : ""
-currentQuestID : ""
-itemTypeID: NONE
-animationConfig: [
 	{
-	    frameDuration: 0.125
-			frameWidth : 48
-			frameHeight : 48
+	    frameDuration: 0.0333
+			frameWidth : 16
+			frameHeight : 16
 		animationType: PUNCH_LEFT
 		texturePaths: [
 				graphics/Character_1_Battle.png
@@ -346,21 +258,10 @@ animationConfig: [
 			}
 		]
 	}
-]
-}
-{
-entityID : CHARACTER_1
-state : IDLE
-direction : DOWN
-conversationConfigPath : ""
-questConfigPath : ""
-currentQuestID : ""
-itemTypeID: NONE
-animationConfig: [
 	{
-	    frameDuration: 0.125
-			frameWidth : 48
-			frameHeight : 48
+	    frameDuration: 0.0333
+			frameWidth : 16
+			frameHeight : 16
 		animationType: PUNCH_RIGHT
 		texturePaths: [
 				graphics/Character_1_Battle.png
@@ -376,21 +277,10 @@ animationConfig: [
 			}
 		]
 	}
-]
-}
-{
-entityID : CHARACTER_1
-state : IDLE
-direction : DOWN
-conversationConfigPath : ""
-questConfigPath : ""
-currentQuestID : ""
-itemTypeID: NONE
-animationConfig: [
 	{
-	    frameDuration: 0.125
-			frameWidth : 48
-			frameHeight : 48
+	    frameDuration: 0.75
+			frameWidth : 16
+			frameHeight : 16
 		animationType: SPELL_LEFT
 		texturePaths: [
 				graphics/Character_1_Battle.png
@@ -406,21 +296,10 @@ animationConfig: [
 			}
 		]
 	}
-]
-}
-{
-entityID : CHARACTER_1
-state : IDLE
-direction : DOWN
-conversationConfigPath : ""
-questConfigPath : ""
-currentQuestID : ""
-itemTypeID: NONE
-animationConfig: [
 	{
-	    frameDuration: 0.125
-			frameWidth : 48
-			frameHeight : 48
+	    frameDuration: 0.75
+			frameWidth : 16
+			frameHeight : 16
 		animationType: SPELL_RIGHT
 		texturePaths: [
 				graphics/Character_1_Battle.png
