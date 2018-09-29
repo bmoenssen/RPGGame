@@ -69,7 +69,6 @@ animationConfig: [
 				x: 25
 				y: 0
 			}
-
 			{
 				x: 25
 				y: 1
@@ -95,7 +94,6 @@ animationConfig: [
 				x: 25
 				y: 0
 			}
-
 			{
 				x: 25
 				y: 1
@@ -121,7 +119,6 @@ animationConfig: [
 				x: 25
 				y: 3
 			}
-
 			{
 				x: 25
 				y: 4
@@ -147,7 +144,6 @@ animationConfig: [
 				x: 25
 				y: 6
 			}
-
 			{
 				x: 25
 				y: 7
@@ -166,14 +162,13 @@ animationConfig: [
 		frameDuration: 0.25
 		animationType: WALK_UP
 		texturePaths: [
-			sprites/characters/.png
+			sprites/characters/Carmen.png
 		]
 		gridPoints: [
 			{
 				x: 25
 				y: 9
 			}
-
 			{
 				x: 25
 				y: 10
@@ -483,7 +478,7 @@ animationConfig: [
 			frameHeight : 16
 		animationType: SPELL_RIGHT
 		texturePaths: [
-				sprites/characters/Character_1_Battle.png
+				sprites/characters/Carmen.png
 		]
 		gridPoints: [
 			{
