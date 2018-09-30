@@ -454,7 +454,7 @@
 {
 	class: com.smoftware.elmour.InventoryElement
 	category: Consumables
-	LCK2
+	id: LCK2
 	name: Maneki-neko
 	summary: This lucky statue is just that: lucky. Much like the lucky horseshoe* it is not edible.
 	buy: 50
@@ -471,7 +471,7 @@
 {
 	class: com.smoftware.elmour.InventoryElement
 	category: Consumables
-	LCK3
+	id: LCK3
 	name: Lucky Horseshoe
 	summary: Although not edible* just looking at this horseshoe makes anyone's day better. Unfortunately* it is introverted and doesn't like people staring at it* terminating itself to avoid such a terrible fate.
 	buy: 25
