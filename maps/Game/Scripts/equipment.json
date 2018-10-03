@@ -130,9 +130,10 @@
 }
 {
 	class: com.smoftware.elmour.InventoryElement
-	category: Helmet1
+	id: HELMET1
+	category: Helmet
 	name: Pot
-	summary: A nice, cheap alternative for more expensive armor.
+	summary: A nice* cheap alternative for more expensive armor.
 	buy: 25
 	sell: 13
 	effectList: [
@@ -224,7 +225,7 @@
 {
 	class: com.smoftware.elmour.InventoryElement
 	id: LEGGINGS1
-	category: LEGGINGS
+	category: Leggings
 	name: Cloth Leggings
 	summary: Helps keep people warm in the winter.
 	buy: 30
@@ -243,7 +244,7 @@
 {
 	class: com.smoftware.elmour.InventoryElement
 	id: LEGGINGS2
-	category: LEGGINGS
+	category: Leggings
 	name: Leather Leggings
 	summary: Made from the hide of a boar.
 	buy: 100
@@ -262,7 +263,7 @@
 {
 	class: com.smoftware.elmour.InventoryElement
 	id: LEGGINGS1
-	category: LEGGINGS
+	category: Leggings
 	name: Cloth Leggings
 	summary: Helps keep people warm in the winter.
 	buy: 300

@@ -830,7 +830,7 @@
 
 {
 	class: com.smoftware.elmour.InventoryElement
-	id: Throw1
+	id: THROW1
 	category: Throwing
 	name: Throwing Knife
 	summary: A knife specially weighted to be easily thrown.
@@ -846,7 +846,7 @@
 
 {
 	class: com.smoftware.elmour.InventoryElement
-	id: Throw2
+	id: THROW2
 	category: Throwing
 	name: Throwing Axe
 	summary: Like a throwing knife* but an axe.
@@ -863,7 +863,7 @@
 
 {
 	class: com.smoftware.elmour.InventoryElement
-	id: Throw3
+	id: THROW3
 	category: Throwing
 	name: Grenade
 	summary: A small bomb that can be thrown.
@@ -879,7 +879,7 @@
 
 {
 	class: com.smoftware.elmour.InventoryElement
-	id: Throw3
+	id: THROW4
 	category: Throwing
 	name: TNT
 	summary: A larger bomb that can be thrown* even if it isn't ment to be.
@@ -896,7 +896,7 @@
 
 {
 	class: com.smoftware.elmour.InventoryElement
-	id: Throw4
+	id: THROW5
 	category: Throwing
 	name: C4
 	summary: An even more powerful bomb that can be remotely exploded.
@@ -912,7 +912,7 @@
 
 {
 	class: com.smoftware.elmour.InventoryElement
-	id: Throw5
+	id: THROW6
 	category: Throwing
 	name: Mini Nuke
 	summary: A mini version of what started the war.
