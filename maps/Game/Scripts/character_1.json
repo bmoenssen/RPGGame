@@ -260,7 +260,7 @@ animationConfig: [
 	}
 	{
 		frameDuration: 0.10
-		animationType: Run_UP
+		animationType: RUN_UP
 		texturePaths: [
 			RPGGame/maps/Game/Characters/Character_1/Character_1.png
 		]
