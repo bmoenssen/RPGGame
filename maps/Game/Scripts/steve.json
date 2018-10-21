@@ -95,7 +95,7 @@ entityAbilities: [
 ]
 animationConfig: [
 	{
-	    frameDuration: 0.25
+	    frameDuration: .15
 		animationType: IDLE
 		texturePaths: [
 			RPGGame/maps/Game/Characters/Steve/Steve.png
@@ -120,7 +120,7 @@ animationConfig: [
 		]
 	}
 	{
-	    frameDuration: 0.25
+	    frameDuration: .15
 		animationType: WALK_DOWN
 		texturePaths: [
 			RPGGame/maps/Game/Characters/Steve/Steve.png
@@ -145,7 +145,7 @@ animationConfig: [
 		]
 	}
 	{
-		frameDuration: 0.25
+		frameDuration: .15
 		animationType: WALK_LEFT
 		texturePaths: [
 			RPGGame/maps/Game/Characters/Steve/Steve.png
@@ -170,7 +170,7 @@ animationConfig: [
 		]
 	}
 	{
-		frameDuration: 0.25
+		frameDuration: .15
 		animationType: WALK_RIGHT
 		texturePaths: [
 			RPGGame/maps/Game/Characters/Steve/Steve.png
@@ -195,7 +195,7 @@ animationConfig: [
 		]
 	}
 	{
-		frameDuration: 0.25
+		frameDuration: .15
 		animationType: WALK_UP
 		texturePaths: [
 			RPGGame/maps/Game/Characters/Steve/Steve.png
