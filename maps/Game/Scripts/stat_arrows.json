@@ -1,12 +1,13 @@
+[
 {
-entityID : Stat_Arrows
+entityID : ATK_UP_LEFT
 state : IDLE
 animationConfig: [
 	{
-	  frameDuration: 0.5
+	  frameDuration: 0.125
     frameWidth : 17
     frameHeight : 16
-		animationType: ATK_UP_LEFT
+		animationType: STAT_ARROW
 		texturePaths: [
 			RPGGame/maps/Game/Characters/Stat_Arrows/Stat_Arrows.png
 		]
@@ -21,11 +22,17 @@ animationConfig: [
 			}
 		]
 	}
+]
+},
+{
+	entityID : ATK_UP_RIGHT
+	state : IDLE
+	animationConfig: [
 	{
-	    frameDuration: 0.5
+	    frameDuration: 0.125
 			frameWidth : 17
 			frameHeight : 16
-		animationType: ATK_UP_RIGHT
+		animationType: STAT_ARROW
 		texturePaths: [
 			RPGGame/maps/Game/Characters/Stat_Arrows/Stat_Arrows.png
 		]
@@ -36,732 +43,1060 @@ animationConfig: [
 			}
 			{
 				x: 0
-				y: 3
-			}
-		]
-	}
-	{
-			frameDuration: 0.5
-			frameWidth : 17
-			frameHeight : 16
-		animationType: ATK_DOWN_LEFT
-		texturePaths: [
-			RPGGame/maps/Game/Characters/Stat_Arrows/Stat_Arrows.png
-		]
-		gridPoints: [
-			{
-				x: 0
-				y: 2
-			}
-			{
-				x: 0
-				y: 3
-			}
-		]
-	}
-	{
-	    frameDuration: 0.5
-			frameWidth : 17
-			frameHeight : 16
-		animationType: ATK_DOWN_RIGHT
-		texturePaths: [
-			RPGGame/maps/Game/Characters/Stat_Arrows/Stat_Arrows.png
-		]
-		gridPoints: [
-			{
-				x: 0
-				y: 2
-			}
-			{
-				x: 0
-				y: 3
-			}
-		]
-	}
-	{
-	  frameDuration: 0.5
-    frameWidth : 17
-    frameHeight : 16
-		animationType: MATK_UP_LEFT
-		texturePaths: [
-			RPGGame/maps/Game/Characters/Stat_Arrows/Stat_Arrows.png
-		]
-		gridPoints: [
-			{
-				x: 1
-				y: 0
-			}
-			{
-				x: 1
-				y: 1
-			}
-		]
-	}
-	{
-	    frameDuration: 0.5
-			frameWidth : 17
-			frameHeight : 16
-		animationType: MATK_UP_RIGHT
-		texturePaths: [
-			RPGGame/maps/Game/Characters/Stat_Arrows/Stat_Arrows.png
-		]
-		gridPoints: [
-			{
-				x: 1
-				y: 2
-			}
-			{
-				x: 1
-				y: 3
-			}
-		]
-	}
-	{
-			frameDuration: 0.5
-			frameWidth : 17
-			frameHeight : 16
-		animationType: MATK_DOWN_LEFT
-		texturePaths: [
-			RPGGame/maps/Game/Characters/Stat_Arrows/Stat_Arrows.png
-		]
-		gridPoints: [
-			{
-				x: 1
-				y: 2
-			}
-			{
-				x: 1
-				y: 3
-			}
-		]
-	}
-	{
-	    frameDuration: 0.5
-			frameWidth : 17
-			frameHeight : 16
-		animationType: MATK_DOWN_RIGHT
-		texturePaths: [
-			RPGGame/maps/Game/Characters/Stat_Arrows/Stat_Arrows.png
-		]
-		gridPoints: [
-			{
-				x: 1
-				y: 2
-			}
-			{
-				x: 1
-				y: 3
-			}
-		]
-	}
-	{
-	  frameDuration: 0.5
-    frameWidth : 17
-    frameHeight : 16
-		animationType: DEF_UP_LEFT
-		texturePaths: [
-			RPGGame/maps/Game/Characters/Stat_Arrows/Stat_Arrows.png
-		]
-		gridPoints: [
-			{
-				x: 2
-				y: 0
-			}
-			{
-				x: 2
-				y: 1
-			}
-		]
-	}
-	{
-	    frameDuration: 0.5
-			frameWidth : 17
-			frameHeight : 16
-		animationType: DEF_UP_RIGHT
-		texturePaths: [
-			RPGGame/maps/Game/Characters/Stat_Arrows/Stat_Arrows.png
-		]
-		gridPoints: [
-			{
-				x: 2
-				y: 2
-			}
-			{
-				x: 2
-				y: 3
-			}
-		]
-	}
-	{
-			frameDuration: 0.5
-			frameWidth : 17
-			frameHeight : 16
-		animationType: DEF_DOWN_LEFT
-		texturePaths: [
-			RPGGame/maps/Game/Characters/Stat_Arrows/Stat_Arrows.png
-		]
-		gridPoints: [
-			{
-				x: 2
-				y: 2
-			}
-			{
-				x: 2
-				y: 3
-			}
-		]
-	}
-	{
-	    frameDuration: 0.5
-			frameWidth : 17
-			frameHeight : 16
-		animationType: DEF_DOWN_RIGHT
-		texturePaths: [
-			RPGGame/maps/Game/Characters/Stat_Arrows/Stat_Arrows.png
-		]
-		gridPoints: [
-			{
-				x: 2
-				y: 2
-			}
-			{
-				x: 2
-				y: 3
-			}
-		]
-	}
-	{
-	  frameDuration: 0.5
-    frameWidth : 17
-    frameHeight : 16
-		animationType: MDEF_UP_LEFT
-		texturePaths: [
-			RPGGame/maps/Game/Characters/Stat_Arrows/Stat_Arrows.png
-		]
-		gridPoints: [
-			{
-				x: 3
-				y: 0
-			}
-			{
-				x: 3
-				y: 1
-			}
-		]
-	}
-	{
-	    frameDuration: 0.5
-			frameWidth : 17
-			frameHeight : 16
-		animationType: MDEF_UP_RIGHT
-		texturePaths: [
-			RPGGame/maps/Game/Characters/Stat_Arrows/Stat_Arrows.png
-		]
-		gridPoints: [
-			{
-				x: 3
-				y: 2
-			}
-			{
-				x: 3
-				y: 3
-			}
-		]
-	}
-	{
-			frameDuration: 0.5
-			frameWidth : 17
-			frameHeight : 16
-		animationType: MDEF_DOWN_LEFT
-		texturePaths: [
-			RPGGame/maps/Game/Characters/Stat_Arrows/Stat_Arrows.png
-		]
-		gridPoints: [
-			{
-				x: 3
-				y: 2
-			}
-			{
-				x: 3
-				y: 3
-			}
-		]
-	}
-	{
-	    frameDuration: 0.5
-			frameWidth : 17
-			frameHeight : 16
-		animationType: MDEF_DOWN_RIGHT
-		texturePaths: [
-			RPGGame/maps/Game/Characters/Stat_Arrows/Stat_Arrows.png
-		]
-		gridPoints: [
-			{
-				x: 3
-				y: 2
-			}
-			{
-				x: 3
-				y: 3
-			}
-		]
-	}
-	{
-	  frameDuration: 0.5
-    frameWidth : 17
-    frameHeight : 16
-		animationType: SPD_UP_LEFT
-		texturePaths: [
-			RPGGame/maps/Game/Characters/Stat_Arrows/Stat_Arrows.png
-		]
-		gridPoints: [
-			{
-				x: 4
-				y: 0
-			}
-			{
-				x: 4
-				y: 1
-			}
-		]
-	}
-	{
-	    frameDuration: 0.5
-			frameWidth : 17
-			frameHeight : 16
-		animationType: SPD_UP_RIGHT
-		texturePaths: [
-			RPGGame/maps/Game/Characters/Stat_Arrows/Stat_Arrows.png
-		]
-		gridPoints: [
-			{
-				x: 4
-				y: 2
-			}
-			{
-				x: 4
-				y: 3
-			}
-		]
-	}
-	{
-			frameDuration: 0.5
-			frameWidth : 17
-			frameHeight : 16
-		animationType: SPD_DOWN_LEFT
-		texturePaths: [
-			RPGGame/maps/Game/Characters/Stat_Arrows/Stat_Arrows.png
-		]
-		gridPoints: [
-			{
-				x: 4
-				y: 2
-			}
-			{
-				x: 4
-				y: 3
-			}
-		]
-	}
-	{
-	    frameDuration: 0.5
-			frameWidth : 17
-			frameHeight : 16
-		animationType: SPD_DOWN_RIGHT
-		texturePaths: [
-			RPGGame/maps/Game/Characters/Stat_Arrows/Stat_Arrows.png
-		]
-		gridPoints: [
-			{
-				x: 4
-				y: 2
-			}
-			{
-				x: 4
-				y: 3
-			}
-		]
-	}
-	{
-	  frameDuration: 0.5
-    frameWidth : 17
-    frameHeight : 16
-		animationType: ACC_UP_LEFT
-		texturePaths: [
-			RPGGame/maps/Game/Characters/Stat_Arrows/Stat_Arrows.png
-		]
-		gridPoints: [
-			{
-				x: 5
-				y: 0
-			}
-			{
-				x: 5
-				y: 1
-			}
-		]
-	}
-	{
-	    frameDuration: 0.5
-			frameWidth : 17
-			frameHeight : 16
-		animationType: ACC_UP_RIGHT
-		texturePaths: [
-			RPGGame/maps/Game/Characters/Stat_Arrows/Stat_Arrows.png
-		]
-		gridPoints: [
-			{
-				x: 5
-				y: 2
-			}
-			{
-				x: 5
-				y: 3
-			}
-		]
-	}
-	{
-			frameDuration: 0.5
-			frameWidth : 17
-			frameHeight : 16
-		animationType: ACC_DOWN_LEFT
-		texturePaths: [
-			RPGGame/maps/Game/Characters/Stat_Arrows/Stat_Arrows.png
-		]
-		gridPoints: [
-			{
-				x: 5
-				y: 2
-			}
-			{
-				x: 5
-				y: 3
-			}
-		]
-	}
-	{
-	    frameDuration: 0.5
-			frameWidth : 17
-			frameHeight : 16
-		animationType: ACC_DOWN_RIGHT
-		texturePaths: [
-			RPGGame/maps/Game/Characters/Stat_Arrows/Stat_Arrows.png
-		]
-		gridPoints: [
-			{
-				x: 5
-				y: 2
-			}
-			{
-				x: 5
-				y: 3
-			}
-		]
-	}
-	{
-	  frameDuration: 0.5
-    frameWidth : 17
-    frameHeight : 16
-		animationType: AVO_UP_LEFT
-		texturePaths: [
-			RPGGame/maps/Game/Characters/Stat_Arrows/Stat_Arrows.png
-		]
-		gridPoints: [
-			{
-				x: 6
-				y: 0
-			}
-			{
-				x: 6
-				y: 1
-			}
-		]
-	}
-	{
-	    frameDuration: 0.5
-			frameWidth : 17
-			frameHeight : 16
-		animationType: AVO_UP_RIGHT
-		texturePaths: [
-			RPGGame/maps/Game/Characters/Stat_Arrows/Stat_Arrows.png
-		]
-		gridPoints: [
-			{
-				x: 6
-				y: 2
-			}
-			{
-				x: 6
-				y: 3
-			}
-		]
-	}
-	{
-			frameDuration: 0.5
-			frameWidth : 17
-			frameHeight : 16
-		animationType: AVO_DOWN_LEFT
-		texturePaths: [
-			RPGGame/maps/Game/Characters/Stat_Arrows/Stat_Arrows.png
-		]
-		gridPoints: [
-			{
-				x: 6
-				y: 2
-			}
-			{
-				x: 6
-				y: 3
-			}
-		]
-	}
-	{
-	    frameDuration: 0.5
-			frameWidth : 17
-			frameHeight : 16
-		animationType: AVO_DOWN_RIGHT
-		texturePaths: [
-			RPGGame/maps/Game/Characters/Stat_Arrows/Stat_Arrows.png
-		]
-		gridPoints: [
-			{
-				x: 6
-				y: 2
-			}
-			{
-				x: 6
-				y: 3
-			}
-		]
-	}
-	{
-	  frameDuration: 0.5
-    frameWidth : 17
-    frameHeight : 16
-		animationType: DIBS_UP_LEFT
-		texturePaths: [
-			RPGGame/maps/Game/Characters/Stat_Arrows/Stat_Arrows.png
-		]
-		gridPoints: [
-			{
-				x: 7
-				y: 0
-			}
-			{
-				x: 7
-				y: 1
-			}
-		]
-	}
-	{
-	    frameDuration: 0.5
-			frameWidth : 17
-			frameHeight : 16
-		animationType: DIBS_UP_RIGHT
-		texturePaths: [
-			RPGGame/maps/Game/Characters/Stat_Arrows/Stat_Arrows.png
-		]
-		gridPoints: [
-			{
-				x: 7
-				y: 2
-			}
-			{
-				x: 7
-				y: 3
-			}
-		]
-	}
-	{
-			frameDuration: 0.5
-			frameWidth : 17
-			frameHeight : 16
-		animationType: DIBS_DOWN_LEFT
-		texturePaths: [
-			RPGGame/maps/Game/Characters/Stat_Arrows/Stat_Arrows.png
-		]
-		gridPoints: [
-			{
-				x: 7
-				y: 2
-			}
-			{
-				x: 7
-				y: 3
-			}
-		]
-	}
-	{
-	    frameDuration: 0.5
-			frameWidth : 17
-			frameHeight : 16
-		animationType: DIBS_DOWN_RIGHT
-		texturePaths: [
-			RPGGame/maps/Game/Characters/Stat_Arrows/Stat_Arrows.png
-		]
-		gridPoints: [
-			{
-				x: 7
-				y: 2
-			}
-			{
-				x: 7
-				y: 3
-			}
-		]
-	}
-
-	{
-	  frameDuration: 0.5
-    frameWidth : 17
-    frameHeight : 16
-		animationType: EXP_UP_LEFT
-		texturePaths: [
-			RPGGame/maps/Game/Characters/Stat_Arrows/Stat_Arrows.png
-		]
-		gridPoints: [
-			{
-				x: 8
-				y: 0
-			}
-			{
-				x: 8
-				y: 1
-			}
-		]
-	}
-	{
-	    frameDuration: 0.5
-			frameWidth : 17
-			frameHeight : 16
-		animationType: EXP_UP_RIGHT
-		texturePaths: [
-			RPGGame/maps/Game/Characters/Stat_Arrows/Stat_Arrows.png
-		]
-		gridPoints: [
-			{
-				x: 8
-				y: 2
-			}
-			{
-				x: 8
-				y: 3
-			}
-		]
-	}
-	{
-			frameDuration: 0.5
-			frameWidth : 17
-			frameHeight : 16
-		animationType: EXP_DOWN_LEFT
-		texturePaths: [
-			RPGGame/maps/Game/Characters/Stat_Arrows/Stat_Arrows.png
-		]
-		gridPoints: [
-			{
-				x: 8
-				y: 2
-			}
-			{
-				x: 8
-				y: 3
-			}
-		]
-	}
-	{
-	    frameDuration: 0.5
-			frameWidth : 17
-			frameHeight : 16
-		animationType: EXP_DOWN_RIGHT
-		texturePaths: [
-			RPGGame/maps/Game/Characters/Stat_Arrows/Stat_Arrows.png
-		]
-		gridPoints: [
-			{
-				x: 8
-				y: 2
-			}
-			{
-				x: 8
-				y: 3
-			}
-		]
-	}
-	{
-	  frameDuration: 0.5
-    frameWidth : 17
-    frameHeight : 16
-		animationType: DROPS_UP_LEFT
-		texturePaths: [
-			RPGGame/maps/Game/Characters/Stat_Arrows/Stat_Arrows.png
-		]
-		gridPoints: [
-			{
-				x: 9
-				y: 0
-			}
-			{
-				x: 9
-				y: 1
-			}
-		]
-	}
-	{
-	    frameDuration: 0.5
-			frameWidth : 17
-			frameHeight : 16
-		animationType: DROPS_UP_RIGHT
-		texturePaths: [
-			RPGGame/maps/Game/Characters/Stat_Arrows/Stat_Arrows.png
-		]
-		gridPoints: [
-			{
-				x: 9
-				y: 2
-			}
-			{
-				x: 9
-				y: 3
-			}
-		]
-	}
-	{
-			frameDuration: 0.5
-			frameWidth : 17
-			frameHeight : 16
-		animationType: DROPS_DOWN_LEFT
-		texturePaths: [
-			RPGGame/maps/Game/Characters/Stat_Arrows/Stat_Arrows.png
-		]
-		gridPoints: [
-			{
-				x: 9
-				y: 2
-			}
-			{
-				x: 9
-				y: 3
-			}
-		]
-	}
-	{
-	    frameDuration: 0.5
-			frameWidth : 17
-			frameHeight : 16
-		animationType: DROPS_DOWN_RIGHT
-		texturePaths: [
-			RPGGame/maps/Game/Characters/Stat_Arrows/Stat_Arrows.png
-		]
-		gridPoints: [
-			{
-				x: 9
-				y: 2
-			}
-			{
-				x: 9
 				y: 3
 			}
 		]
 	}
 ]
+},
+{
+	entityID : ATK_DOWN_LEFT
+	state : IDLE
+	animationConfig: [
+	{
+			frameDuration: 0.125
+			frameWidth : 17
+			frameHeight : 16
+		animationType: STAT_ARROW
+		texturePaths: [
+			RPGGame/maps/Game/Characters/Stat_Arrows/Stat_Arrows.png
+		]
+		gridPoints: [
+			{
+				x: 0
+				y: 4
+			}
+			{
+				x: 0
+				y: 5
+			}
+		]
+	}
+]
+},
+{
+	entityID : ATK_DOWN_RIGHT
+	state : IDLE
+	animationConfig: [
+	{
+	    frameDuration: 0.125
+			frameWidth : 17
+			frameHeight : 16
+		animationType: STAT_ARROW
+		texturePaths: [
+			RPGGame/maps/Game/Characters/Stat_Arrows/Stat_Arrows.png
+		]
+		gridPoints: [
+			{
+				x: 0
+				y: 6
+			}
+			{
+				x: 0
+				y: 7
+			}
+		]
+	}
+]
+},
+{
+	entityID : MATK_UP_LEFT
+	state : IDLE
+	animationConfig: [
+	{
+	  frameDuration: 0.125
+    frameWidth : 17
+    frameHeight : 16
+		animationType: STAT_ARROW
+		texturePaths: [
+			RPGGame/maps/Game/Characters/Stat_Arrows/Stat_Arrows.png
+		]
+		gridPoints: [
+			{
+				x: 1
+				y: 0
+			}
+			{
+				x: 1
+				y: 1
+			}
+		]
+	}
+]
+},
+{
+	entityID : MATK_UP_RIGHT
+	state : IDLE
+	animationConfig: [
+	{
+	    frameDuration: 0.125
+			frameWidth : 17
+			frameHeight : 16
+		animationType: STAT_ARROW
+		texturePaths: [
+			RPGGame/maps/Game/Characters/Stat_Arrows/Stat_Arrows.png
+		]
+		gridPoints: [
+			{
+				x: 1
+				y: 2
+			}
+			{
+				x: 1
+				y: 3
+			}
+		]
+	}
+]
+},
+{
+	entityID : MATK_DOWN_LEFT
+	state : IDLE
+	animationConfig: [
+	{
+			frameDuration: 0.125
+			frameWidth : 17
+			frameHeight : 16
+		animationType: STAT_ARROW
+		texturePaths: [
+			RPGGame/maps/Game/Characters/Stat_Arrows/Stat_Arrows.png
+		]
+		gridPoints: [
+			{
+				x: 1
+				y: 4
+			}
+			{
+				x: 1
+				y: 5
+			}
+		]
+	}
+]
+},
+{
+	entityID : MATK_DOWN_RIGHT
+	state : IDLE
+	animationConfig: [
+	{
+	    frameDuration: 0.125
+			frameWidth : 17
+			frameHeight : 16
+		animationType: STAT_ARROW
+		texturePaths: [
+			RPGGame/maps/Game/Characters/Stat_Arrows/Stat_Arrows.png
+		]
+		gridPoints: [
+			{
+				x: 1
+				y: 6
+			}
+			{
+				x: 1
+				y: 7
+			}
+		]
+	}
+]
+},
+{
+	entityID : DEF_UP_LEFT
+	state : IDLE
+	animationConfig: [
+	{
+	  frameDuration: 0.125
+    frameWidth : 17
+    frameHeight : 16
+		animationType: STAT_ARROW
+		texturePaths: [
+			RPGGame/maps/Game/Characters/Stat_Arrows/Stat_Arrows.png
+		]
+		gridPoints: [
+			{
+				x: 2
+				y: 0
+			}
+			{
+				x: 2
+				y: 1
+			}
+		]
+	}
+]
+},
+{
+	entityID : DEF_UP_RIGHT
+	state : IDLE
+	animationConfig: [
+	{
+	    frameDuration: 0.125
+			frameWidth : 17
+			frameHeight : 16
+		animationType: STAT_ARROW
+		texturePaths: [
+			RPGGame/maps/Game/Characters/Stat_Arrows/Stat_Arrows.png
+		]
+		gridPoints: [
+			{
+				x: 2
+				y: 2
+			}
+			{
+				x: 2
+				y: 3
+			}
+		]
+	}
+]
+},
+{
+	entityID : DEF_DOWN_LEFT
+	state : IDLE
+	animationConfig: [
+	{
+			frameDuration: 0.125
+			frameWidth : 17
+			frameHeight : 16
+		animationType: STAT_ARROW
+		texturePaths: [
+			RPGGame/maps/Game/Characters/Stat_Arrows/Stat_Arrows.png
+		]
+		gridPoints: [
+			{
+				x: 2
+				y: 4
+			}
+			{
+				x: 2
+				y: 5
+			}
+		]
+	}
+]
+},
+{
+	entityID : DEF_DOWN_RIGHT
+	state : IDLE
+	animationConfig: [
+	{
+	    frameDuration: 0.125
+			frameWidth : 17
+			frameHeight : 16
+		animationType: STAT_ARROW
+		texturePaths: [
+			RPGGame/maps/Game/Characters/Stat_Arrows/Stat_Arrows.png
+		]
+		gridPoints: [
+			{
+				x: 2
+				y: 6
+			}
+			{
+				x: 2
+				y: 7
+			}
+		]
+	}
+]
+},
+{
+	entityID : MDEF_UP_LEFT
+	state : IDLE
+	animationConfig: [
+	{
+	  frameDuration: 0.125
+    frameWidth : 17
+    frameHeight : 16
+		animationType: STAT_ARROW
+		texturePaths: [
+			RPGGame/maps/Game/Characters/Stat_Arrows/Stat_Arrows.png
+		]
+		gridPoints: [
+			{
+				x: 3
+				y: 0
+			}
+			{
+				x: 3
+				y: 1
+			}
+		]
+	}
+]
+},
+{
+	entityID : MDEF_UP_RIGHT
+	state : IDLE
+	animationConfig: [
+	{
+	    frameDuration: 0.125
+			frameWidth : 17
+			frameHeight : 16
+		animationType: STAT_ARROW
+		texturePaths: [
+			RPGGame/maps/Game/Characters/Stat_Arrows/Stat_Arrows.png
+		]
+		gridPoints: [
+			{
+				x: 3
+				y: 2
+			}
+			{
+				x: 3
+				y: 3
+			}
+		]
+	}
+]
+},
+{
+	entityID : MDEF_DOWN_LEFT
+	state : IDLE
+	animationConfig: [
+	{
+			frameDuration: 0.125
+			frameWidth : 17
+			frameHeight : 16
+		animationType: STAT_ARROW
+		texturePaths: [
+			RPGGame/maps/Game/Characters/Stat_Arrows/Stat_Arrows.png
+		]
+		gridPoints: [
+			{
+				x: 3
+				y: 4
+			}
+			{
+				x: 3
+				y: 5
+			}
+		]
+	}
+]
+},
+{
+	entityID : MDEF_DOWN_RIGHT
+	state : IDLE
+	animationConfig: [
+	{
+	    frameDuration: 0.125
+			frameWidth : 17
+			frameHeight : 16
+		animationType: STAT_ARROW
+		texturePaths: [
+			RPGGame/maps/Game/Characters/Stat_Arrows/Stat_Arrows.png
+		]
+		gridPoints: [
+			{
+				x: 3
+				y: 6
+			}
+			{
+				x: 3
+				y: 7
+			}
+		]
+	}
+]
+},
+{
+	entityID : SPD_UP_LEFT
+	state : IDLE
+	animationConfig: [
+	{
+	  frameDuration: 0.125
+    frameWidth : 17
+    frameHeight : 16
+		animationType: STAT_ARROW
+		texturePaths: [
+			RPGGame/maps/Game/Characters/Stat_Arrows/Stat_Arrows.png
+		]
+		gridPoints: [
+			{
+				x: 4
+				y: 0
+			}
+			{
+				x: 4
+				y: 1
+			}
+		]
+	}
+]
+},
+{
+	entityID : SPD_UP_RIGHT
+	state : IDLE
+	animationConfig: [
+	{
+	    frameDuration: 0.125
+			frameWidth : 17
+			frameHeight : 16
+		animationType: STAT_ARROW
+		texturePaths: [
+			RPGGame/maps/Game/Characters/Stat_Arrows/Stat_Arrows.png
+		]
+		gridPoints: [
+			{
+				x: 4
+				y: 2
+			}
+			{
+				x: 4
+				y: 3
+			}
+		]
+	}
+]
+},
+{
+	entityID : SPD_DOWN_LEFT
+	state : IDLE
+	animationConfig: [
+	{
+			frameDuration: 0.125
+			frameWidth : 17
+			frameHeight : 16
+		animationType: STAT_ARROW
+		texturePaths: [
+			RPGGame/maps/Game/Characters/Stat_Arrows/Stat_Arrows.png
+		]
+		gridPoints: [
+			{
+				x: 4
+				y: 4
+			}
+			{
+				x: 4
+				y: 5
+			}
+		]
+	}
+]
+},
+{
+	entityID : SPD_DOWN_RIGHT
+	state : IDLE
+	animationConfig: [
+	{
+	    frameDuration: 0.125
+			frameWidth : 17
+			frameHeight : 16
+		animationType: STAT_ARROW
+		texturePaths: [
+			RPGGame/maps/Game/Characters/Stat_Arrows/Stat_Arrows.png
+		]
+		gridPoints: [
+			{
+				x: 4
+				y: 6
+			}
+			{
+				x: 4
+				y: 7
+			}
+		]
+	}
+]
+},
+{
+	entityID : ACC_UP_LEFT
+	state : IDLE
+	animationConfig: [
+	{
+	  frameDuration: 0.125
+    frameWidth : 17
+    frameHeight : 16
+		animationType: STAT_ARROW
+		texturePaths: [
+			RPGGame/maps/Game/Characters/Stat_Arrows/Stat_Arrows.png
+		]
+		gridPoints: [
+			{
+				x: 5
+				y: 0
+			}
+			{
+				x: 5
+				y: 1
+			}
+		]
+	}
+]
+},
+{
+	entityID : ACC_UP_RIGHT
+	state : IDLE
+	animationConfig: [
+	{
+	    frameDuration: 0.125
+			frameWidth : 17
+			frameHeight : 16
+		animationType: STAT_ARROW
+		texturePaths: [
+			RPGGame/maps/Game/Characters/Stat_Arrows/Stat_Arrows.png
+		]
+		gridPoints: [
+			{
+				x: 5
+				y: 2
+			}
+			{
+				x: 5
+				y: 3
+			}
+		]
+	}
+]
+},
+{
+	entityID : ACC_DOWN_LEFT
+	state : IDLE
+	animationConfig: [
+	{
+			frameDuration: 0.125
+			frameWidth : 17
+			frameHeight : 16
+		animationType: STAT_ARROW
+		texturePaths: [
+			RPGGame/maps/Game/Characters/Stat_Arrows/Stat_Arrows.png
+		]
+		gridPoints: [
+			{
+				x: 5
+				y: 4
+			}
+			{
+				x: 5
+				y: 5
+			}
+		]
+	}
+]
+},
+{
+	entityID : ACC_DOWN_RIGHT
+	state : IDLE
+	animationConfig: [
+	{
+	    frameDuration: 0.125
+			frameWidth : 17
+			frameHeight : 16
+		animationType: STAT_ARROW
+		texturePaths: [
+			RPGGame/maps/Game/Characters/Stat_Arrows/Stat_Arrows.png
+		]
+		gridPoints: [
+			{
+				x: 5
+				y: 6
+			}
+			{
+				x: 5
+				y: 7
+			}
+		]
+	}
+]
+},
+{
+	entityID : AVO_UP_LEFT
+	state : IDLE
+	animationConfig: [
+	{
+	  frameDuration: 0.125
+    frameWidth : 17
+    frameHeight : 16
+		animationType: STAT_ARROW
+		texturePaths: [
+			RPGGame/maps/Game/Characters/Stat_Arrows/Stat_Arrows.png
+		]
+		gridPoints: [
+			{
+				x: 6
+				y: 0
+			}
+			{
+				x: 6
+				y: 1
+			}
+		]
+	}
+]
+},
+{
+	entityID : AVO_UP_RIGHT
+	state : IDLE
+	animationConfig: [
+	{
+	    frameDuration: 0.125
+			frameWidth : 17
+			frameHeight : 16
+		animationType: STAT_ARROW
+		texturePaths: [
+			RPGGame/maps/Game/Characters/Stat_Arrows/Stat_Arrows.png
+		]
+		gridPoints: [
+			{
+				x: 6
+				y: 2
+			}
+			{
+				x: 6
+				y: 3
+			}
+		]
+	}
+]
+},
+{
+	entityID : AVO_DOWN_LEFT
+	state : IDLE
+	animationConfig: [
+	{
+			frameDuration: 0.125
+			frameWidth : 17
+			frameHeight : 16
+		animationType: STAT_ARROW
+		texturePaths: [
+			RPGGame/maps/Game/Characters/Stat_Arrows/Stat_Arrows.png
+		]
+		gridPoints: [
+			{
+				x: 6
+				y: 4
+			}
+			{
+				x: 6
+				y: 5
+			}
+		]
+	}
+]
+},
+{
+	entityID : AVO_DOWN_RIGHT
+	state : IDLE
+	animationConfig: [
+	{
+	    frameDuration: 0.125
+			frameWidth : 17
+			frameHeight : 16
+		animationType: STAT_ARROW
+		texturePaths: [
+			RPGGame/maps/Game/Characters/Stat_Arrows/Stat_Arrows.png
+		]
+		gridPoints: [
+			{
+				x: 6
+				y: 6
+			}
+			{
+				x: 6
+				y: 7
+			}
+		]
+	}
+]
+},
+{
+	entityID : LCK_UP_LEFT
+	state : IDLE
+	animationConfig: [
+	{
+	  frameDuration: 0.125
+    frameWidth : 17
+    frameHeight : 16
+		animationType: STAT_ARROW
+		texturePaths: [
+			RPGGame/maps/Game/Characters/Stat_Arrows/Stat_Arrows.png
+		]
+		gridPoints: [
+			{
+				x: 7
+				y: 0
+			}
+			{
+				x: 7
+				y: 1
+			}
+		]
+	}
+]
+},
+{
+	entityID : LCK_UP_RIGHT
+	state : IDLE
+	animationConfig: [
+	{
+	    frameDuration: 0.125
+			frameWidth : 17
+			frameHeight : 16
+		animationType: STAT_ARROW
+		texturePaths: [
+			RPGGame/maps/Game/Characters/Stat_Arrows/Stat_Arrows.png
+		]
+		gridPoints: [
+			{
+				x: 7
+				y: 2
+			}
+			{
+				x: 7
+				y: 3
+			}
+		]
+	}
+]
+},
+{
+	entityID : LCK_DOWN_LEFT
+	state : IDLE
+	animationConfig: [
+	{
+			frameDuration: 0.125
+			frameWidth : 17
+			frameHeight : 16
+		animationType: STAT_ARROW
+		texturePaths: [
+			RPGGame/maps/Game/Characters/Stat_Arrows/Stat_Arrows.png
+		]
+		gridPoints: [
+			{
+				x: 7
+				y: 4
+			}
+			{
+				x: 7
+				y: 5
+			}
+		]
+	}
+]
+},
+{
+	entityID : LCK_DOWN_RIGHT
+	state : IDLE
+	animationConfig: [
+	{
+	    frameDuration: 0.125
+			frameWidth : 17
+			frameHeight : 16
+		animationType: STAT_ARROW
+		texturePaths: [
+			RPGGame/maps/Game/Characters/Stat_Arrows/Stat_Arrows.png
+		]
+		gridPoints: [
+			{
+				x: 7
+				y: 6
+			}
+			{
+				x: 7
+				y: 7
+			}
+		]
+	}
+]
+},
+{
+	entityID : DIBS_UP_LEFT
+	state : IDLE
+	animationConfig: [
+	{
+	  frameDuration: 0.125
+    frameWidth : 17
+    frameHeight : 16
+		animationType: STAT_ARROW
+		texturePaths: [
+			RPGGame/maps/Game/Characters/Stat_Arrows/Stat_Arrows.png
+		]
+		gridPoints: [
+			{
+				x: 8
+				y: 0
+			}
+			{
+				x: 8
+				y: 1
+			}
+		]
+	}
+]
+},
+{
+	entityID : DIBS_UP_RIGHT
+	state : IDLE
+	animationConfig: [
+	{
+	    frameDuration: 0.125
+			frameWidth : 17
+			frameHeight : 16
+		animationType: STAT_ARROW
+		texturePaths: [
+			RPGGame/maps/Game/Characters/Stat_Arrows/Stat_Arrows.png
+		]
+		gridPoints: [
+			{
+				x: 8
+				y: 2
+			}
+			{
+				x: 8
+				y: 3
+			}
+		]
+	}
+]
+},
+{
+	entityID : DIBS_DOWN_LEFT
+	state : IDLE
+	animationConfig: [
+	{
+			frameDuration: 0.125
+			frameWidth : 17
+			frameHeight : 16
+		animationType: STAT_ARROW
+		texturePaths: [
+			RPGGame/maps/Game/Characters/Stat_Arrows/Stat_Arrows.png
+		]
+		gridPoints: [
+			{
+				x: 8
+				y: 4
+			}
+			{
+				x: 8
+				y: 5
+			}
+		]
+	}
+]
+},
+{
+	entityID : DIBS_DOWN_RIGHT
+	state : IDLE
+	animationConfig: [
+	{
+	    frameDuration: 0.125
+			frameWidth : 17
+			frameHeight : 16
+		animationType: STAT_ARROW
+		texturePaths: [
+			RPGGame/maps/Game/Characters/Stat_Arrows/Stat_Arrows.png
+		]
+		gridPoints: [
+			{
+				x: 8
+				y: 6
+			}
+			{
+				x: 8
+				y: 7
+			}
+		]
+	}
+]
+},
+{
+	entityID : EXP_UP_LEFT
+	state : IDLE
+	animationConfig: [
+	{
+	  frameDuration: 0.125
+    frameWidth : 17
+    frameHeight : 16
+		animationType: STAT_ARROW
+		texturePaths: [
+			RPGGame/maps/Game/Characters/Stat_Arrows/Stat_Arrows.png
+		]
+		gridPoints: [
+			{
+				x: 9
+				y: 0
+			}
+			{
+				x: 9
+				y: 1
+			}
+		]
+	}
+	]
+},
+{
+	entityID : EXP_UP_RIGHT
+	state : IDLE
+	animationConfig: [
+	{
+	    frameDuration: 0.125
+			frameWidth : 17
+			frameHeight : 16
+		animationType: STAT_ARROW
+		texturePaths: [
+			RPGGame/maps/Game/Characters/Stat_Arrows/Stat_Arrows.png
+		]
+		gridPoints: [
+			{
+				x: 9
+				y: 2
+			}
+			{
+				x: 9
+				y: 3
+			}
+		]
+	}
+	]
+},
+{
+	entityID : EXP_DOWN_LEFT
+	state : IDLE
+	animationConfig: [
+	{
+			frameDuration: 0.125
+			frameWidth : 17
+			frameHeight : 16
+		animationType: STAT_ARROW
+		texturePaths: [
+			RPGGame/maps/Game/Characters/Stat_Arrows/Stat_Arrows.png
+		]
+		gridPoints: [
+			{
+				x: 9
+				y: 4
+			}
+			{
+				x: 9
+				y: 5
+			}
+		]
+	}
+	]
+},
+{
+	entityID : EXP_DOWN_RIGHT
+	state : IDLE
+	animationConfig: [
+	{
+	    frameDuration: 0.125
+			frameWidth : 17
+			frameHeight : 16
+		animationType: STAT_ARROW
+		texturePaths: [
+			RPGGame/maps/Game/Characters/Stat_Arrows/Stat_Arrows.png
+		]
+		gridPoints: [
+			{
+				x: 9
+				y: 6
+			}
+			{
+				x: 9
+				y: 7
+			}
+		]
+	}
+	]
+},
+{
+	entityID : DROPS_UP_LEFT
+	state : IDLE
+	animationConfig: [
+	{
+	  frameDuration: 0.125
+    frameWidth : 17
+    frameHeight : 16
+		animationType: STAT_ARROW
+		texturePaths: [
+			RPGGame/maps/Game/Characters/Stat_Arrows/Stat_Arrows.png
+		]
+		gridPoints: [
+			{
+				x: 10
+				y: 0
+			}
+			{
+				x: 10
+				y: 1
+			}
+		]
+	}
+	]
+},
+{
+	entityID : DROPS_UP_RIGHT
+	state : IDLE
+	animationConfig: [
+	{
+	    frameDuration: 0.125
+			frameWidth : 17
+			frameHeight : 16
+		animationType: STAT_ARROW
+		texturePaths: [
+			RPGGame/maps/Game/Characters/Stat_Arrows/Stat_Arrows.png
+		]
+		gridPoints: [
+			{
+				x: 10
+				y: 2
+			}
+			{
+				x: 10
+				y: 3
+			}
+		]
+	}
+	]
+},
+{
+	entityID : DROPS_DOWN_LEFT
+	state : IDLE
+	animationConfig: [
+	{
+			frameDuration: 0.125
+			frameWidth : 17
+			frameHeight : 16
+		animationType: STAT_ARROW
+		texturePaths: [
+			RPGGame/maps/Game/Characters/Stat_Arrows/Stat_Arrows.png
+		]
+		gridPoints: [
+			{
+				x: 10
+				y: 4
+			}
+			{
+				x: 10
+				y: 5
+			}
+		]
+	}
+	]
+},
+{
+	entityID : DROPS_DOWN_RIGHT
+	state : IDLE
+	animationConfig: [
+	{
+	    frameDuration: 0.125
+			frameWidth : 17
+			frameHeight : 16
+		animationType: STAT_ARROW
+		texturePaths: [
+			RPGGame/maps/Game/Characters/Stat_Arrows/Stat_Arrows.png
+		]
+		gridPoints: [
+			{
+				x: 10
+				y: 6
+			}
+			{
+				x: 10
+				y: 7
+			}
+		]
+	}
+]
 }
+]
