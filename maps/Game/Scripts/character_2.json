@@ -6,7 +6,6 @@ direction : DOWN
 conversationConfigPath : "conversations/testing.json"
 questConfigPath : ""
 currentQuestID : ""
-itemTypeID: NONE
 entityProperties: {
 	HP: {
 		class: java.lang.String
@@ -534,6 +533,26 @@ animationConfig: [
 			{
 				x: 0
 				y: 4
+			}
+		]
+	}
+	{
+			frameDuration: 0.08
+			frameWidth : 16
+			frameHeight : 16
+			looping : false
+		animationType: THINK
+		texturePaths: [
+				RPGGame/maps/Game/Characters/Misc/Misc.png
+		]
+		gridPoints: [
+			{
+				x: 10
+				y: 2
+			}
+			{
+				x: 10
+				y: 3
 			}
 		]
 	}
