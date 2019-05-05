@@ -1,6 +1,6 @@
 {
 entityID : Character_1
-displayName : "Boy"
+displayName : "Apollo"
 state : IDLE
 direction : DOWN
 conversationConfigPath : "conversations/testing.json"
@@ -410,17 +410,18 @@ animationConfig: [
 			frameDuration: 0.0333
 			frameWidth : 16
 			frameHeight : 16
-		animationType: KNUCKLE_LEFT
+			looping : false
+		animationType: KNUCKLES_LEFT
 		texturePaths: [
 				RPGGame/maps/Game/Characters/Character_1/Character_1.png
 		]
 		gridPoints: [
 			{
-				x: 5
+				x: 4
 				y: 0
 			}
 			{
-				x: 5
+				x: 4
 				y: 1
 			}
 		]
@@ -429,17 +430,18 @@ animationConfig: [
 			frameDuration: 0.0333
 			frameWidth : 16
 			frameHeight : 16
-		animationType: KNUCKLE_RIGHT
+			looping : false
+		animationType: KNUCKLES_RIGHT
 		texturePaths: [
 				RPGGame/maps/Game/Characters/Character_1/Character_1.png
 		]
 		gridPoints: [
 			{
-				x: 5
+				x: 4
 				y: 2
 			}
 			{
-				x: 5
+				x: 4
 				y: 3
 			}
 		]
@@ -710,6 +712,90 @@ animationConfig: [
 			{
 				x: 10
 				y: 4
+			}
+		]
+	}
+	{
+			frameDuration: 0.15
+			frameWidth : 16
+			frameHeight : 16
+			looping : true
+		animationType: BOOK
+		texturePaths: [
+				RPGGame/maps/Game/Characters/Misc/Misc.png
+		]
+		gridPoints: [
+			{
+				x: 10
+				y: 5
+			}
+			{
+				x: 10
+				y: 5
+			}
+			{
+				x: 10
+				y: 5
+			}
+			{
+				x: 10
+				y: 5
+			}
+			{
+				x: 10
+				y: 5
+			}
+			{
+				x: 10
+				y: 5
+			}
+			{
+				x: 10
+				y: 5
+			}
+			{
+				x: 10
+				y: 6
+			}
+			{
+				x: 10
+				y: 7
+			}
+			{
+				x: 10
+				y: 8
+			}
+			{
+				x: 10
+				y: 9
+			}
+			{
+				x: 10
+				y: 10
+			}
+		]
+	}
+	{
+			frameDuration: 0.15
+			frameWidth : 16
+			frameHeight : 16
+			looping : false
+		animationType: BOOK_CLOSE
+		texturePaths: [
+				RPGGame/maps/Game/Characters/Misc/Misc.png
+		]
+		gridPoints: [
+			{
+				x: 10
+				y: 5
+			}
+			{
+				x: 10
+				y: 11
+			}
+			{
+				x: 10
+				y: 12
 			}
 		]
 	}

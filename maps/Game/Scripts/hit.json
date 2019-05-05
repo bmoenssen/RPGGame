@@ -154,7 +154,8 @@ animationConfig: [
 			frameDuration: 0.0667
 			frameWidth : 16
 			frameHeight : 16
-		animationType: KNUCKLE_LEFT
+			looping : false
+		animationType: KNUCKLES_LEFT
 		texturePaths: [
 				RPGGame/maps/Game/Characters/Hit/Hit.png
 		]
@@ -185,7 +186,8 @@ animationConfig: [
 			frameDuration: 0.0667
 			frameWidth : 16
 			frameHeight : 16
-		animationType: KNUCKLE_RIGHT
+			looping : false
+		animationType: KNUCKLES_RIGHT
 		texturePaths: [
 				RPGGame/maps/Game/Characters/Hit/Hit.png
 		]
